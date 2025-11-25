@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0e0e0e;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        video {
+            width: 80%;
+            max-width: 700px;
+            border-radius: 10px;
+            box-shadow: 0 0 25px rgba(255,255,255,0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Live the Music 🎶</h1>
+
+    <video controls>
+        <source src="live-the-music.mp4" type="video/mp4">
+        Tu navegador no soporta este video.
+    </video>
+</body>
+</html>
